@@ -1,0 +1,40 @@
+.advantages {
+    height: 470px;
+    background: #F6F6F6;
+    padding: 47px 0;
+    &__items {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        text-align: center;
+        width: 277px;
+        height: 250px;
+    }
+    &__text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        color: #0D0D0D;
+        span {
+            text-decoration-line: underline;
+            color: #FF0000;
+            font-family: MuseoModerno;
+        }
+    }
+    &__img {
+        margin-bottom: 35px;
+        &_animated {
+            animation-name: heartbeat;
+            animation-duration: 1s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+    }
+    h4 {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+}
